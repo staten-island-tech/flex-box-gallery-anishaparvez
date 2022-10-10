@@ -16,6 +16,7 @@ h2 {
   font-size: 3rem;
   border: 1px solid blue;
   display: flex;
+  flex:1;
   justify-content: space-around;
 }
 .rem-size {
