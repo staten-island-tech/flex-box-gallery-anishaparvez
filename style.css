@@ -1,37 +1,43 @@
 html,
 body,
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5%*/
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+ font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5%*/
+
+}
+body{
+  background-color: black;
 }
 .parent {
-  font-size: 20px;
+ font-size: 20px;
 }
 h2 {
-  margin: 1rem;
+ margin: 1rem;
 }
-.px-size {
+.card{
   font-size: 3rem;
-  border: 1px solid blue;
-  display: flex;
-  flex:1;
-  justify-content: space-around;
-}
-.rem-size {
-  font-size: 3rem;
-  border: 1px solid blue;
-  display flex;
-  justify-content: space-around;
-
-}
-.em-size {
-  font-size: 3rem;
-  border: 1px solid blue;
+  width: 28%;
+  height: 400px;
   display: flex;
   justify-content: space-around;
-}
- .lo-size{ 
+  align-items: center;
+  background-color: blue;
+  box-sizing: border-box;
+  box-shadow: 3px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 15px;
+  margin-top: 10%;
+  
 
 }
+
+
+@media screen (max-width: 768px){
+ .px-size{
+   flex-direction:column;
+ }
+ 
