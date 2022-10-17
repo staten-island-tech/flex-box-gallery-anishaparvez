@@ -57,6 +57,7 @@ small,
   margin-top: 5%;
   border-radius: 20%;
   border: 6px solid cornflowerblue;
+  box-shadow: 10px 5px 5px royalblue;
 }
 .card-img {
   width: 50%;
@@ -66,8 +67,6 @@ small,
   flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
-  box-shadow: 10px, 5px, 5px red;
-  -webkit-transition: all 0.3s;
   height: 255px;
 }
 @media screen (max-width: 768px) {
