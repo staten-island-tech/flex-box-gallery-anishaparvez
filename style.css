@@ -58,7 +58,18 @@ small,
   border-radius: 20%;
   border: 6px solid cornflowerblue;
   box-shadow: 10px 5px 5px royalblue;
-  
+}
+.card:hover{
+  border-radius: 2rem;
+  transition:1s ease;
+}
+.main-header{
+  text-align: center;
+  align-items: center;
+}
+.main-header:hover{
+  border-radius: 5rem;
+  transition: 2s ease-in;
 }
 .card-img {
   width: 50%;
@@ -70,8 +81,31 @@ small,
   margin: auto;
   height: 255px;
 }
+.card-img:hover{
+border-radius: 5rem;
+transition: 1s ease-in-out;
+}
+.microphone{
+  height: 9rem;
+  width: 5rem;
+}
+.animation{
+  height: 11rem;
+  width: 5rem;
+  position: absolute;
 
-@media screen (max-width: 768px) {
+}
+@keyframes test{
+  0%{
+  left: 50%;
+  bottom: 10%;
+  }
+  100%{
+    left: 50%;
+    bottom: 10%;
+  }
+}
+@media screen(max-width: 768px) {
   .px-size {
     flex-direction: column;
   }
