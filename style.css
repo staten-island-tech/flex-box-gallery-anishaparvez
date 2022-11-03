@@ -90,9 +90,8 @@ transition: 1s ease-in-out;
   width: 5rem;
 }
 .animation{
-  height: 11rem;
-  width: 5rem;
-  position: absolute;
+animation: 3s ease-in 1s 2 reverse both paused slidein;
+
 
 }
 @keyframes test{
